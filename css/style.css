@@ -1,0 +1,81 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: #797e91;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #aa0c0c;
+}
+#page-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+    
+h1 {
+    color: #ee0e0e;
+    font-family: 'MuseoModerno', cursive;
+    text-align: center;
+    text-size-adjust: 24rem;
+    column-span: calc(welcome to the world of pizza);
+    
+}
+img + p {
+    font-weight: bold
+
+}
+
+body {
+    color: blue;
+    text-align: Center;
+    text-size-adjust: 12rem;
+    column-span: initial;
+
+}
+
+#secret-one {
+    transition: font-size 1s ease-in-out;
+}
+
+#secret-one:hover {
+    font-size: 3rem;
+    cursor: pointer;
+    transition: font-size 1s ease-in-out;
+}
+
+#secret-one:active {
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+#secret-two:hover {
+    cursor: pointer;
+}
+
+#secret-two:active {
+    display: none;
+}
+
+#secret-three {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+
+}
+#secret-three:active {
+    color: #BFC0C0;
+    cursor: pointer;
+}
+
+#secret-two:active {
+    display: none;
+}
+
+#secret-three {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#secret-three:hover {
+    opacity: 1;
+    cursor: pointer;
+}
